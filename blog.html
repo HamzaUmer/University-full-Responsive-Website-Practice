@@ -17,6 +17,8 @@
       src="https://kit.fontawesome.com/b934489859.js"
       crossorigin="anonymous"
     ></script>
+    <!--AOS-CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--Main-CSS file-->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -41,10 +43,12 @@
     <!--Sub-header Section-->
     <section class="blog-content">
       <div class="row">
-        <div class="blog-left">
+        <div data-aos="slide-right" data-aos-duration="2000" class="blog-left">
           <img src="img/certificate.jpg" />
-          <h2>Our Certificate & Online Program For 2021</h2>
-          <p>
+          <h2 data-aos="slide-up" data-aos-duration="2000">
+            Our Certificate & Online Program For 2021
+          </h2>
+          <p data-aos="fade-up" data-aos-duration="2000">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -56,7 +60,7 @@
             PageMaker including versions of Lorem Ipsum.
           </p>
           <br />
-          <p>
+          <p data-aos="fade-up" data-aos-duration="2000">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
             making it over 2000 years old. Richard McClintock, a Latin professor
@@ -71,7 +75,7 @@
             amet..", comes from a line in section 1.10.32.
           </p>
           <br />
-          <p>
+          <p data-aos="fade-up" data-aos-duration="2000">
             The standard chunk of Lorem Ipsum used since the 1500s is reproduced
             below for those interested. Sections 1.10.32 and 1.10.33 from "de
             Finibus Bonorum et Malorum" by Cicero are also reproduced in their
@@ -79,7 +83,7 @@
             translation by H. Rackham.
           </p>
           <br />
-          <p>
+          <p data-aos="fade-up" data-aos-duration="2000">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal
@@ -92,7 +96,7 @@
             and the like).
           </p>
           <br />
-          <p>
+          <p data-aos="fade-up" data-aos-duration="2000">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
@@ -106,7 +110,11 @@
             Ipsum is therefore always free from repetition, injected humour, or
             non-characteristic words etc.
           </p>
-          <div class="comment-box">
+          <div
+            data-aos="slide-down"
+            data-aos-duration="2000"
+            class="comment-box"
+          >
             <h3>Leave a comment</h3>
             <form class="comment-form">
               <input type="text" placeholder="Enter Name" />
@@ -118,7 +126,7 @@
             </form>
           </div>
         </div>
-        <div class="blog-right">
+        <div data-aos="slide-left" data-aos-duration="2000" class="blog-right">
           <h3>Post Categories</h3>
           <div>
             <span>Business Analytics</span>
@@ -170,6 +178,11 @@
       </p>
     </section>
     <!--Footer Section-->
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!--Main-JS file-->
     <script src="js/main.js"></script>
   </body>
