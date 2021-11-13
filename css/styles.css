@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+html, body {
+  overflow-x: hidden;
+}
 /*---------------------Home Page---------------------------*/
 /*..............
 1. Header Section
